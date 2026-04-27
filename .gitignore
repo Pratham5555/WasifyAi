@@ -1,0 +1,101 @@
+# ========== NODE / REACT NATIVE ==========
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.yarn/
+
+# Android
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/captures/
+mobile/android/.externalNativeBuild/
+mobile/android/*.keystore
+!mobile/android/debug.keystore
+mobile/.buckd/
+mobile/buck-out/
+
+# iOS
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/*.xcworkspace
+mobile/ios/*.xcuserdata
+
+# Metro Bundler
+.metro-health-check-result
+.metro-cache/
+metro-cache/
+
+# React Native
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# ========== PYTHON / BACKEND ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+ai-model/venv/
+ai-model/.venv/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========== DATABASE ==========
+*.db
+*.sqlite
+*.sqlite3
+wasify.db
+
+# ========== ENVIRONMENT ==========
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ========== AI / MODEL FILES ==========
+*.tflite
+*.h5
+*.pb
+*.onnx
+ai-model/dataset/
+ai-model/runs/
+ai-model/__pycache__/
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ========== LOGS ==========
+logs/
+*.log
+
+# ========== UPLOADS ==========
+backend/uploads/
