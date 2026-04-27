@@ -14,8 +14,11 @@
 import axios, { AxiosError } from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// Android emulator maps 10.0.2.2 → your PC's localhost
-export const BASE_URL = 'http://10.0.2.2:8000';
+// ⚠️  PHYSICAL DEVICE: Replace with your PC's local IP address
+// Run `ipconfig` in cmd → look for "IPv4 Address" under your WiFi adapter
+// Example: http://192.168.1.100:8000
+// Both your phone AND PC must be connected to the SAME WiFi network
+export const BASE_URL = 'http://YOUR_PC_IP:8000'; // <-- CHANGE THIS
 
 const api = axios.create({
   baseURL: BASE_URL,
